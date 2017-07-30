@@ -9,10 +9,13 @@ import { SlidesRouteNavigatorService } from '../lib/slides-route-navigator/slide
 import { SlideNavigatorDirective } from '../lib/slide-navigator/slide-navigator.directive';
 import { SlideContainerComponent } from './slide-container.component';
 
+import { FirstModule } from './first/first.module';
+
 @NgModule({
   imports: [
     CommonModule,
-    SlidesRoutingModule
+    SlidesRoutingModule,
+    FirstModule
   ],
   declarations: [FooterComponent, HeaderComponent, SlideContainerComponent, SlideNavigatorDirective],
   exports: [FooterComponent, HeaderComponent],
