@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'ps-footer',
-  template: `
-    <p>
-      footer works!
-    </p>
-  `,
+  template: `<footer></footer>`,
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {

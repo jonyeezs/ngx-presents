@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'ps-header',
-  template: `
-    <p>
-      header works!
-    </p>
-  `,
+  template: `<header></header>`,
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
