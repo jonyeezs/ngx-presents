@@ -2,20 +2,21 @@ import { Directive, HostListener } from '@angular/core';
 
 import { SlidesRouteNavigatorService } from '../slides-route-navigator/slides-route-navigator.service';
 
-declare enum KEY_CODE {
+const enum KEY_CODE  {
   RIGHT_ARROW = 39,
   LEFT_ARROW = 37
-}
+};
 
 @Directive({
   selector: '[psSlideNavigator]'
 })
 export class SlideNavigatorDirective {
 
-  constructor(private slideTransition: SlidesRouteNavigatorService) { }
+  constructor(private slideTransition: SlidesRouteNavigatorService) {}
 
   @HostListener('window:keyup', ['$event'])
     keyEvent(event: KeyboardEvent) {
+      if (event.srcElement.tagName !== 'BODY') return;
 
       if (event.keyCode === KEY_CODE.RIGHT_ARROW) {
         this.slideTransition.next();

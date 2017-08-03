@@ -4,8 +4,9 @@ import { CommonModule } from '@angular/common';
 import { FooterComponent } from '../lib/footer/footer.component';
 import { HeaderComponent } from '../lib/header/header.component';
 
-import { SlidesRoutingModule } from './slides-routing.module';
-import { SlidesRouteNavigatorService } from '../lib/slides-route-navigator/slides-route-navigator.service';
+import { RouterModule } from '@angular/router';
+import { RoutesConfig } from './slides-route.config';
+
 import { SlideNavigatorDirective } from '../lib/slide-navigator/slide-navigator.directive';
 import { SlideContainerComponent } from '../lib/slide-container/slide-container.component';
 
@@ -14,11 +15,11 @@ import { FirstModule } from './first/first.module';
 @NgModule({
   imports: [
     CommonModule,
-    SlidesRoutingModule,
+    RouterModule.forChild(RoutesConfig),
     FirstModule
   ],
   declarations: [FooterComponent, HeaderComponent, SlideContainerComponent, SlideNavigatorDirective],
   exports: [FooterComponent, HeaderComponent],
-  providers: [SlidesRouteNavigatorService]
+  providers: []
 })
 export class SlidesModule { }

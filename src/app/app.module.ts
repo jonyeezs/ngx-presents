@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { SlidesRouteNavigatorService } from './lib/slides-route-navigator/slides-route-navigator.service'
+
 import { PageNotFoundComponent } from './not-found.component';
 import { AppComponent } from './app.component';
 import { SlidesModule } from './slides/slides.module';
@@ -21,6 +23,6 @@ const appRoutes: Routes = [
     AppComponent
   ],
   bootstrap: [AppComponent],
-  providers: []
+  providers: [SlidesRouteNavigatorService]
 })
 export class AppModule { }
