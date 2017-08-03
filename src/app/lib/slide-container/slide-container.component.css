@@ -1,7 +1,23 @@
-.main {
-  height: 100%;
-}
 .container {
-  height: 80%;
-  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% auto 10%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  background-color: #FFFCFB;
+}
+
+.header {
+ grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
 }

@@ -15,8 +15,8 @@ Of course with [Angular][ngHome] and good old-fashion [Angular-CLI](https://gith
 
 ## How do I add slides?
 
-1. Run `ng g m slides/slide-name -m slides.module.ts`.
-1. Run `ng g c slides/slide-name -m slides/slide-name/slide-name.module.ts --export`.
+1. Run `ng g m ../slides/slide-name -m slides.module.ts --spec=false`.
+1. Run `ng g c slides/slide-name -m slides/slide-name/slide-name.module.ts --spec=false --export`.
 1. Add `Route` to [slide-route-config.ts](src/app/slides/slide-route-config.ts) according to the transition order.
 
 ## To Start presenting

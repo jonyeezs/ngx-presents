@@ -3,14 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ps-slide-container',
   template:
-    `<section class="main">
-      <ps-header></ps-header>
+    `<section class="container">
+      <ps-header class="header"></ps-header>
 
-      <main class="container">
+      <main class="main">
         <router-outlet psSlideNavigator></router-outlet>
       </main>
 
-      <ps-footer></ps-footer>
+      <ps-footer class="footer"></ps-footer>
     </section>`,
   styleUrls: ['./slide-container.component.css']
 })
