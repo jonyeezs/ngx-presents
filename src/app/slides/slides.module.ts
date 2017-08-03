@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { FooterComponent } from '../footer/footer.component';
-import { HeaderComponent } from '../header/header.component';
+import { FooterComponent } from '../lib/footer/footer.component';
+import { HeaderComponent } from '../lib/header/header.component';
 
 import { SlidesRoutingModule } from './slides-routing.module';
 import { SlidesRouteNavigatorService } from '../lib/slides-route-navigator/slides-route-navigator.service';
 import { SlideNavigatorDirective } from '../lib/slide-navigator/slide-navigator.directive';
-import { SlideContainerComponent } from './slide-container.component';
+import { SlideContainerComponent } from '../lib/slide-container/slide-container.component';
 
 import { FirstModule } from './first/first.module';
 

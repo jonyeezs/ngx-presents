@@ -1,5 +1,5 @@
 import { Routes, Route } from '@angular/router';
-import { SlideContainerComponent } from './slide-container.component';
+import { SlideContainerComponent } from '../lib/slide-container/slide-container.component';
 import { FirstComponent } from './first/first.component';
 
 const RoutesList: Route[] = [
