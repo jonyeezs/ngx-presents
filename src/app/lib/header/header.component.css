@@ -2,4 +2,5 @@ header {
   background-color: blue;
   margin: 0;
   height: 10%;
+  box-sizing: border-box;
 }

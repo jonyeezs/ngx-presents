@@ -1,3 +1,7 @@
+import './assets/brands.js';
+import './assets/solid.js';
+import './assets/fontawesome';
+
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
