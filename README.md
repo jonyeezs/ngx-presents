@@ -13,13 +13,20 @@ Create a slides presentation using [Angular][ngHome]
 
 Of course with [Angular][ngHome] and good old-fashion [Angular-CLI](https://github.com/angular/angular-cli)
 
-## How do I add slides?
+### Other tech-stack
+
+1. [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) for high level 2-D grid layout
+2. [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) for detailed 1-D layout
+
+## How To
+
+### Add slides?
 
 1. Run `ng g m ../slides/slide-name -m slides.module.ts --spec=false`.
 1. Run `ng g c slides/slide-name -m slides/slide-name/slide-name.module.ts --spec=false --export`.
 1. Add `Route` to [slide-route-config.ts](src/app/slides/slide-route-config.ts) according to the transition order.
 
-## To Start presenting
+### Start presenting
 
 * Run `npm start`
 
