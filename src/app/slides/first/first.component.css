@@ -1,0 +1,29 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr [title-start] 1fr [message-start] 1fr 1fr [message-end] 1fr [title-end] 1fr;
+  grid-template-rows: 1fr [title-start] auto [title-end message-start] auto [message-end] 2fr;
+}
+
+.title {
+  grid-area: title;
+  justify-self: center;
+  align-self: center;
+}
+
+.message {
+  grid-area: message;
+  justify-self: center;
+  align-self: center;
+}
+
+.message > p {
+  color: #B2A2E4;
+  font-size: 1.5em;
+  font-family: 'Futura', san-serif;
+  font-weight: lighter;
+}
+
+.keypad {
+  margin: auto 5px;
+}
