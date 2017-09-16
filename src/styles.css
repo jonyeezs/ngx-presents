@@ -4,3 +4,17 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
+h1 {
+  font-size: 3.2em;
+  font-family: 'Lucida Console', san-serif;
+  color: #281F46;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-family: 'Lucida Console', san-serif;
+  color: #553DA4;
+  font-weight: bold;
+}
