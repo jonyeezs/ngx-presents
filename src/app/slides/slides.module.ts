@@ -11,12 +11,14 @@ import { SlideNavigatorDirective } from '../lib/slide-navigator/slide-navigator.
 import { SlideContainerComponent } from '../lib/slide-container/slide-container.component';
 
 import { FirstModule } from './first/first.module';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule.forChild(RoutesConfig),
-    FirstModule
+    FirstModule,
+    AboutModule
   ],
   declarations: [FooterComponent, HeaderComponent, SlideContainerComponent, SlideNavigatorDirective],
   exports: [FooterComponent, HeaderComponent],
