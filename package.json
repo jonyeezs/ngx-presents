@@ -11,6 +11,10 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonyeezs/ngx-presents.git"
+  },
   "dependencies": {
     "@angular/animations": "^4.4.3",
     "@angular/common": "^4.4.3",
