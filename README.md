@@ -15,8 +15,7 @@ Of course with [Angular][ngHome] and good old-fashion [Angular-CLI](https://gith
 
 ### Other tech-stack
 
-1. [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) for high level 2-D grid layout
-2. [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) for detailed 1-D layout
+1. [SASS](http://sass-lang.com)
 
 ## How To
 
@@ -30,7 +29,11 @@ Of course with [Angular][ngHome] and good old-fashion [Angular-CLI](https://gith
 
 * Run `npm start`
 
+### Tips
 
+* For component style placing i recommend this approach:
+  1. [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) for high level 2-D grid layout
+  2. [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) for detailed 1-D layout
 
 
 [ngHome]: https://angular.io
