@@ -1,6 +1,8 @@
+<span style="color:red">**Unfortunately, this pet project is put on halt. I'd love to continue with this but I don't see any benefit off it so far.**</span>
+
 # NGx❇︎Presents🍿🎦
 
-Create a slides presentation using [Angular][ngHome]
+**Create a slides presentation using [Angular][ngHome]**
 
 ## Who is this for?
 
