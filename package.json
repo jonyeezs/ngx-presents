@@ -16,23 +16,23 @@
     "url": "https://github.com/jonyeezs/ngx-presents.git"
   },
   "dependencies": {
-    "@angular/animations": "^4.4.3",
-    "@angular/common": "^4.4.3",
-    "@angular/compiler": "^4.4.3",
-    "@angular/core": "^4.4.3",
-    "@angular/forms": "^4.4.3",
-    "@angular/http": "^4.4.3",
-    "@angular/platform-browser": "^4.4.3",
-    "@angular/platform-browser-dynamic": "^4.4.3",
-    "@angular/router": "^4.4.3",
+    "@angular/animations": "5.2.9",
+    "@angular/common": "5.2.9",
+    "@angular/compiler": "5.2.9",
+    "@angular/core": "5.2.9",
+    "@angular/forms": "5.2.9",
+    "@angular/http": "5.2.9",
+    "@angular/platform-browser": "5.2.9",
+    "@angular/platform-browser-dynamic": "5.2.9",
+    "@angular/router": "5.2.9",
     "core-js": "^2.5.1",
-    "rxjs": "^5.4.3",
-    "zone.js": "^0.8.17"
+    "rxjs": "^5.5.9",
+    "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "@angular/cli": "^1.4.4",
-    "@angular/compiler-cli": "^4.4.3",
-    "@angular/language-service": "^4.4.3",
+    "@angular/cli": "1.7.4",
+    "@angular/compiler-cli": "5.2.9",
+    "@angular/language-service": "5.2.9",
     "@types/jasmine": "^2.5.54",
     "@types/jasminewd2": "^2.0.3",
     "@types/node": "^6.0.88",
@@ -49,6 +49,6 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
-    "typescript": "~2.3.3"
+    "typescript": "2.6.2"
   }
 }
